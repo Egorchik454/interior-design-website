@@ -1,13 +1,14 @@
-@import "footer.css";
-@import "projects.css";
-@import "contacts.css";
-@import "intro.css";
-@import "services.css";
-@import "galery.css";
-@import "about-us.css";
-@import "heading.css";
-@import "buttons.css";
-@import "review.css";
+@import "/footer.css";
+@import "/projects.css";
+@import "/contacts.css";
+@import "/intro.css";
+@import "/services.css";
+@import "/projects.css";
+@import "/galery.css";
+@import "/about-us.css";
+@import "/heading.css";
+@import "/buttons.css";
+@import "/review.css";
 
 
 body {
@@ -21,6 +22,7 @@ main {
 }
 
 section {
+    margin: 0 auto;
     width: 1150px;
 }
 
