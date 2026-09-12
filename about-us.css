@@ -1,0 +1,49 @@
+.about-us__text{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.about-us__btn {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #AD1818;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width:1199px) {
+    .about-us__text {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    /* .about-us__btn {
+        padding: 14.5px 27px;
+        font-size: 16px;
+        line-height: 22px;
+    } */
+}
+
+@media (max-width:767px) {
+    .about-us__text {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about-us__btn {
+        padding: 14.5px 27px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,109 @@
+@import "/footer.css";
+@import "/projects.css";
+@import "/contacts.css";
+@import "/intro.css";
+@import "/services.css";
+@import "/projects.css";
+@import "/galery.css";
+@import "/about-us.css";
+@import "/heading.css";
+@import "/buttons.css";
+@import "/review.css";
+
+
+body {
+    font-family: 'Manrope';
+    width: 100%;
+    background: #F5F5F5;
+}
+
+main {
+    background-color: #fff;
+}
+
+section {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+
+section {
+    padding-top: 150px;
+}
+
+@media (max-width:1199px) {
+    section,
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 17px;
+    }
+
+    section {
+        padding-top: 120px;
+    }
+
+}
+
+@media (max-width:767px) {
+    section,
+    .container {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 13px;
+    }
+    
+    section {
+        padding-top: 80px;
+    }
+
+    section:first-child {
+        padding-top: 60px;
+    }
+
+}
+
+
+
+section:first-child {
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+.section-long {
+    padding-bottom: 150px;
+}
+
+.section-full {
+    width: 100%;
+}
+
+.section-nopadd {
+    padding: 0;
+}
+
+
+
+.container-black {
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    padding: 33px 125px 0 125px;
+    width: 1400px;
+    margin: auto;
+}
+
+
+.nav {
+    float: right;
+}
+
+
+
+
+
+
+
+

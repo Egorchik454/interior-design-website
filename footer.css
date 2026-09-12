@@ -1,0 +1,35 @@
+footer {
+    padding: 60px 0 30px 0;
+}
+
+.footer_titile {
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.footernav {
+    padding-bottom: 70px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.footernav__link {
+    color: #fff;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.footernav__link:hover,
+.footernav__link:active {
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+
+}
